@@ -118,7 +118,7 @@ end
 ```
 
 In your `Application` module, add `Server` as a worker:
-
+lib/my_app/application.ex:
 ```elixir
 defmodule MyApp.Application do
   use Application
